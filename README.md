@@ -6,7 +6,7 @@ The purpose of this analysis is to predict credit risk using machine learning al
 - RandomOverSampler and SMOTE algorithms were used to oversample the data. 
 - The ClusterCentroids algorithm was used to undersample the data. 
 - The SMOTEEN algorithm was used for a combinational approach of over and undersampling. 
-- BalancedRandomForestClassifier and EasyEnsembleClassifier were utilized to predict credit risk. 
+- BalancedRandomForestClassifier and EasyEnsembleClassifier were utilized to reduce bias when predicting credit risk. 
 
 ## Results
 
