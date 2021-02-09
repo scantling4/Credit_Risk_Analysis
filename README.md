@@ -11,8 +11,8 @@ The purpose of this analysis is to predict credit risk using machine learning al
 ## Results
 
 ### Naive Random Oversampling results: 
-- The balance accuracy score was 66% which is low.
-- The precision for high_risk was 1%, which denoteslow positivity. The recall was 66%.
+- The balance accuracy score was 66% which is considered low.
+- The precision for high_risk was 1%, which is low positivity. The recall was 66%.
 
 ![Naive Random](/naive_random.png)
 
