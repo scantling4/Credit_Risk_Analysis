@@ -1,7 +1,7 @@
 # Supervised Machine Learning and Credit Risk Analysis
 
 ## Overview of Analysis
-The purpose of this analysis is to predict credit risk using machine learning algorithms. The strengths and weaknesses of machine learning models were assessed throughout the analysis. 
+The purpose of this analysis is to predict credit risk using machine learning algorithms. 
 
 - RandomOverSampler and SMOTE algorithms were used to oversample the data. 
 - The ClusterCentroids algorithm was used to undersample the data. 
