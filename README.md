@@ -11,35 +11,35 @@ The purpose of this analysis is to predict credit risk using machine learning al
 ## Results
 
 ### Naive Random Oversampling results: 
-- The balance accuracy score was 66% which is considered low.
+- The balance accuracy score was 66%. This is considered to be low.
 
-- The precision for high_risk was 1%, which is low positivity. The recall was 66%.
+- The precision for high_risk was 1% which is very low. The recall was 66%.
 
 ![Naive Random](/naive_random.png)
 
 ### SMOTE Oversampling results:
-- Balance accuracy score was about 63% which is considered low.
+- Balance accuracy score was about 63%. This is considered to be low.
 
-- The precision for high_risk was 1% which denotes low positivity. The recall was 61%.
+- The precision for high_risk was 1% which is very low. The recall was 61%.
 
 ![Oversampling](/oversampling.png)
 
 ### Undersampling ClusterCentroids results:
--Balance accuracy score was 52% which is low.
+-Balance accuracy score was 52%. This is considered to be low.
 
 -The precision for low_risk was 99% which is very high. The recall was 40%.
 
 ![undersampling](/undersampling.png)
 
 ### Combination Sampling With SMOTEENN results:
--Balance accuracy score was 64% which is low.
+-Balance accuracy score was 64%. This is considered to be low.
 
 -The precision for low_risk was 99% which is very high. The recall was 57%.
 
 ![combination](/combination.png)
 
 ### Balanced Random Forest Classifier results:
--Balance accuracy score was 79%.
+-Balance accuracy score was 79%. 
 
 -The precision for low_risk was 99% which is very high. The recall was 91%.
 
@@ -48,7 +48,7 @@ The purpose of this analysis is to predict credit risk using machine learning al
 ### Easy Ensemble AdaBooster Classifier results:
 -Balance accuracy score was 93% which is high.
 
--The precision for low_risk was 99% which is very high. The he recall was 94%.
+-The precision for low_risk was 99% which is very high. The recall was 94%.
 
 ![Easy Ensemble](/easy_ensemble.png)
 
